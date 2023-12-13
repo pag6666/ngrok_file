@@ -2,26 +2,31 @@
 using System.Net.Sockets;
 class Pro 
 {
-   static string connectionSource = "https://raw.githubusercontent.com/pag6666/ngrok_file/main/ngrok_server_connection";
     
-    static string path_connection = "conection.init";
+  
 
     static void Main()
     {
-       
-            connection:
-            string host = "null";
+
+        connection:
+        const string connectionSource = @"https://raw.githubusercontent.com/pag6666/ngrok_file/main/ngrok_server_connection";
+        string host = "null";
             int port = 0;
-            WebClient webckin = new WebClient();
-            webckin.DownloadFile(connectionSource, path_connection);
-            if (File.Exists(path_connection)) {
-                StreamReader readfile = new StreamReader(File.Open(path_connection, FileMode.Open));
-                string connectionLine = readfile.ReadLine();
-                string[] hoat_and_port = connectionLine.Split(':');
-                host = hoat_and_port[0];
-                port = int.Parse((hoat_and_port[1]));
-                readfile.Close();
-            }
+        using (WebClient webclin = new WebClient())
+        {
+
+            
+            Stream stream = webclin.OpenRead(connectionSource);
+            StreamReader reader = new StreamReader(stream);
+            string content = reader.ReadToEnd();
+           
+            Console.WriteLine("address: "+content);
+            string connectionLine = content;
+            string[] hoat_and_port = connectionLine.Split(':');
+            host = hoat_and_port[0];
+            port = int.Parse((hoat_and_port[1]));
+                 
+        }
             //
             Console.WriteLine($"host = {host} port = {port}");
             TcpClient client = new TcpClient(host, port);
@@ -30,29 +35,38 @@ class Pro
         {
             StreamWriter write = new StreamWriter(client.GetStream());
             StreamReader read = new StreamReader(client.GetStream());
-            Console.WriteLine("Input Name");
-            write.WriteLine(Console.ReadLine());
-            write.Flush();
-            //
-            while (true)
-            {
-                string answer_server = read.ReadLine();
-
-                Console.WriteLine($"server: {answer_server}");
-                Console.WriteLine("Input command");
-                string command_send = Console.ReadLine();
-                write.WriteLine(command_send);
+            if (client.Connected && client.GetStream().CanRead || client.GetStream().CanWrite) {
+                Console.WriteLine("Input Name");
+                string user_name = Console.ReadLine();
+                write.WriteLine(user_name);
                 write.Flush();
-                if (command_send.ToLower() == "close")
+                //
+                while (client.Connected)
                 {
-                    break;
+                    string answer_server = read.ReadLine();
+
+                    Console.WriteLine($"server: {answer_server}");
+                    if (answer_server != "server: hello " + user_name + " server limit") {
+                        Console.WriteLine("Input command");
+                        string command_send = Console.ReadLine();
+                        write.WriteLine(command_send);
+                        write.Flush();
+                        if (command_send.ToLower() == "close")
+                        {
+                            break;
+                        }
+                        else if (command_send.ToLower() == "clear")
+                        {
+                            Console.Clear();
+                        }
+                    }
                 }
+                //
+                read.Close();
+                write.Close();
+                client.Close();
+                Console.WriteLine("Client Close");
             }
-            //
-            read.Close();
-            write.Close();
-            client.Close();
-            Console.WriteLine("Client Close");
         }
         catch (Exception e) 
         {

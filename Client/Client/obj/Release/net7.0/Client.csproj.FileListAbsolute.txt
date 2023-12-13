@@ -1,0 +1,14 @@
+D:\ОбщаяПапка\Client\Client\bin\Release\net7.0\Client.exe
+D:\ОбщаяПапка\Client\Client\bin\Release\net7.0\Client.deps.json
+D:\ОбщаяПапка\Client\Client\bin\Release\net7.0\Client.runtimeconfig.json
+D:\ОбщаяПапка\Client\Client\bin\Release\net7.0\Client.dll
+D:\ОбщаяПапка\Client\Client\bin\Release\net7.0\Client.pdb
+D:\ОбщаяПапка\Client\Client\obj\Release\net7.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\ОбщаяПапка\Client\Client\obj\Release\net7.0\Client.AssemblyInfoInputs.cache
+D:\ОбщаяПапка\Client\Client\obj\Release\net7.0\Client.AssemblyInfo.cs
+D:\ОбщаяПапка\Client\Client\obj\Release\net7.0\Client.csproj.CoreCompileInputs.cache
+D:\ОбщаяПапка\Client\Client\obj\Release\net7.0\Client.dll
+D:\ОбщаяПапка\Client\Client\obj\Release\net7.0\refint\Client.dll
+D:\ОбщаяПапка\Client\Client\obj\Release\net7.0\Client.pdb
+D:\ОбщаяПапка\Client\Client\obj\Release\net7.0\Client.genruntimeconfig.cache
+D:\ОбщаяПапка\Client\Client\obj\Release\net7.0\ref\Client.dll

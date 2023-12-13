@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8eTpowLCEUAGCYaw6w48mlH2yrEeZhujXP6IQgKp2B7TZHh3pj4ylP723lkj9xVgYhcE/ipNBwS+auMjFBhrAA==",
+  "dgSpecHash": "EcUXuw07DjEuDFwKrH1zXnYsMGvE3LGX3acUWysPWQRyrkow69hLecB+7+POefU8VBluYqDpKYp5OCLeZlZYIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pargev\\Desktop\\Server\\OLdBase\\OLdBase.csproj",
+  "projectFilePath": "D:\\ОбщаяПапка\\Server\\OLdBase\\OLdBase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pargev\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
     "C:\\Users\\Pargev\\.nuget\\packages\\system.data.oledb\\8.0.0\\system.data.oledb.8.0.0.nupkg.sha512",

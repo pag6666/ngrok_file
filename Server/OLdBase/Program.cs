@@ -9,7 +9,7 @@ namespace OLdBase {
         tcp:
             if (Console.ReadLine() == "Close")
             {
-
+               Environment.Exit(0);
             }
             else
             {

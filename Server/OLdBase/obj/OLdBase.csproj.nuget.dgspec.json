@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pargev\\Desktop\\Server\\OLdBase\\OLdBase.csproj": {}
+    "D:\\ОбщаяПапка\\Server\\OLdBase\\OLdBase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pargev\\Desktop\\Server\\OLdBase\\OLdBase.csproj": {
+    "D:\\ОбщаяПапка\\Server\\OLdBase\\OLdBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pargev\\Desktop\\Server\\OLdBase\\OLdBase.csproj",
+        "projectUniqueName": "D:\\ОбщаяПапка\\Server\\OLdBase\\OLdBase.csproj",
         "projectName": "OLdBase",
-        "projectPath": "C:\\Users\\Pargev\\Desktop\\Server\\OLdBase\\OLdBase.csproj",
+        "projectPath": "D:\\ОбщаяПапка\\Server\\OLdBase\\OLdBase.csproj",
         "packagesPath": "C:\\Users\\Pargev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pargev\\Desktop\\Server\\OLdBase\\obj\\",
+        "outputPath": "D:\\ОбщаяПапка\\Server\\OLdBase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pargev\\AppData\\Roaming\\NuGet\\NuGet.Config",
