@@ -17,6 +17,7 @@ namespace OLdBase
         static List<string> user_list = new List<string>();
         static async void Server() 
         {
+            int server_max_limit = 100;
             Console.WriteLine("Server start");
             TcpListener server = new TcpListener(System.Net.IPAddress.Any, 25565);
             server.Start();
@@ -27,7 +28,7 @@ namespace OLdBase
                     while (true)
                     {
                         TcpClient client = server.AcceptTcpClient();
-                        if (limit_cone < 3)
+                        if (limit_cone < server_max_limit)
                         {
                             // error_ref:
                             

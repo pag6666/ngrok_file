@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "EcUXuw07DjEuDFwKrH1zXnYsMGvE3LGX3acUWysPWQRyrkow69hLecB+7+POefU8VBluYqDpKYp5OCLeZlZYIg==",
+  "dgSpecHash": "8wjxu7dFTaf1Wgl3dAVY7t3npKTd6p88pSNR5co+POHnY+sc8IqvJScKh4Dxds/jOhO6hIYovRBwzTmP2I5P6w==",
   "success": true,
-  "projectFilePath": "D:\\ОбщаяПапка\\Server\\OLdBase\\OLdBase.csproj",
+  "projectFilePath": "C:\\Users\\pargev\\Desktop\\code\\c++\\Security_cpp_handler\\ngrok_file\\Server\\OLdBase\\OLdBase.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Pargev\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
-    "C:\\Users\\Pargev\\.nuget\\packages\\system.data.oledb\\8.0.0\\system.data.oledb.8.0.0.nupkg.sha512",
-    "C:\\Users\\Pargev\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
-    "C:\\Users\\Pargev\\.nuget\\packages\\system.diagnostics.performancecounter\\8.0.0\\system.diagnostics.performancecounter.8.0.0.nupkg.sha512",
-    "C:\\Users\\Pargev\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
+    "C:\\Users\\pargev\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+    "C:\\Users\\pargev\\.nuget\\packages\\system.data.oledb\\8.0.0\\system.data.oledb.8.0.0.nupkg.sha512",
+    "C:\\Users\\pargev\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+    "C:\\Users\\pargev\\.nuget\\packages\\system.diagnostics.performancecounter\\8.0.0\\system.diagnostics.performancecounter.8.0.0.nupkg.sha512",
+    "C:\\Users\\pargev\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

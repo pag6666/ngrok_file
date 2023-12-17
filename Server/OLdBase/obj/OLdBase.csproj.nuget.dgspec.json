@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ОбщаяПапка\\Server\\OLdBase\\OLdBase.csproj": {}
+    "C:\\Users\\pargev\\Desktop\\code\\c++\\Security_cpp_handler\\ngrok_file\\Server\\OLdBase\\OLdBase.csproj": {}
   },
   "projects": {
-    "D:\\ОбщаяПапка\\Server\\OLdBase\\OLdBase.csproj": {
+    "C:\\Users\\pargev\\Desktop\\code\\c++\\Security_cpp_handler\\ngrok_file\\Server\\OLdBase\\OLdBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ОбщаяПапка\\Server\\OLdBase\\OLdBase.csproj",
+        "projectUniqueName": "C:\\Users\\pargev\\Desktop\\code\\c++\\Security_cpp_handler\\ngrok_file\\Server\\OLdBase\\OLdBase.csproj",
         "projectName": "OLdBase",
-        "projectPath": "D:\\ОбщаяПапка\\Server\\OLdBase\\OLdBase.csproj",
-        "packagesPath": "C:\\Users\\Pargev\\.nuget\\packages\\",
-        "outputPath": "D:\\ОбщаяПапка\\Server\\OLdBase\\obj\\",
+        "projectPath": "C:\\Users\\pargev\\Desktop\\code\\c++\\Security_cpp_handler\\ngrok_file\\Server\\OLdBase\\OLdBase.csproj",
+        "packagesPath": "C:\\Users\\pargev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pargev\\Desktop\\code\\c++\\Security_cpp_handler\\ngrok_file\\Server\\OLdBase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Pargev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pargev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
